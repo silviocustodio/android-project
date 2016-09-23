@@ -1,6 +1,7 @@
 # android-project
-Restaurant Menu App - MOBILE APPLICATION TO INTEGRATED DATABASE VIA WEB SERVICE. Using Java, PHP, JSON, MySQL.
+Restaurant Menu App - MOBILE APPLICATION TO INTEGRATED DATABASE VIA WEB SERVICE. Using Android, Java, PHP, JSON, MySQL. 
 I've made this project for my final work graduation with the theme MOBILE APPLICATION TO INTEGRATED DATABASE VIA WEB SERVICE.
+Created in the Integrated Development Environment (IDE) - Android Studio.
 
 Summary
 
