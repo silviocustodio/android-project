@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical"  tools:context="furafila.view.LoginActivity"
+    android:background="@drawable/fundofurafiladois"
+    android:weightSum="1"
+    android:focusable="false">
+
+
+    <ImageView
+        android:layout_width="799dp"
+        android:layout_height="91dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logobranco"
+        android:layout_weight="0.26" />
+
+    <EditText android:id="@+id/email" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:hint="Email"
+        android:inputType="textEmailAddress" android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginTop="280dp"
+        android:textColor="@color/switch_thumb_normal_material_light"
+        android:textColorHint="@color/abc_primary_text_material_dark"
+        android:backgroundTint="@color/hint_foreground_material_dark" />
+
+    <EditText android:id="@+id/password" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:hint="@string/prompt_password"
+        android:inputType="textPassword"
+        android:maxLines="1" android:singleLine="true"
+        android:textColorHint="@color/switch_thumb_normal_material_light"
+        android:textColor="@color/switch_thumb_normal_material_light"
+        android:backgroundTint="@color/hint_foreground_material_dark" />
+
+    <Button android:id="@+id/sign_in_register"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="SIGN IN OR REGISTER"
+        android:background="@android:color/holo_purple"
+        android:backgroundTint="@color/hint_foreground_material_dark"
+        android:layout_weight="1" />
+
+</LinearLayout>

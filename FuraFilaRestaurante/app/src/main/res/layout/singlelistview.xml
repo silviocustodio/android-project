@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="150dp"
+                android:maxHeight="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/d_1"
+                android:layout_span="2"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="R$ 7,90"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:stepSize="1.0"
+                android:rating="3.0" />
+
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="A la drink 12"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_weight="1"
+                android:layout_span="2"
+                android:gravity="center_horizontal"
+                android:text="A la drink a la drink a la drink a la drink a la drink a la drink a la drink a la drink a la drink a la drink a la drink a la drink"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
